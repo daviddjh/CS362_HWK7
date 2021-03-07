@@ -1,0 +1,9 @@
+Senario: User uploads a photo to the app
+
+TDD approach:
+  Create a test for what is suposed to happen when the servers can't be reached ( Error code )
+  Develop code in the phone app to display an error message when the servers can't be contacted
+  Create a test for what is supposed to happen when a image isn't the correct format -> the app is supposed to convert it into a correct format
+  Develop code in the app to convert the photo format to the correct format when it isn't correct in the first place
+  Create a test to test for confirmation from the photo server when a user uploads a photo
+  Develop the code in the phone app to the point where a user can upload a photo and recieve a success confirmation
